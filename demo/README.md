@@ -18,6 +18,127 @@ After successful compilation, run the demo with:
 ./json_demo.exe
 ```
 
+The output should be:
+
+```
+JSON Library Demo
+=================
+
+=== Testing Basic Types ===
+String: "Hello, World!"
+Integer: 42
+Real number: 3.14159
+Boolean true: true
+Boolean false: false
+Null: null
+
+=== Testing Objects ===
+Person object: {
+  "active": true,
+  "age": 30,
+  "name": "John Doe",
+  "nickname": null,
+  "salary": 75000.5
+}
+Person with nested address: {
+  "active": true,
+  "address": {
+    "city": "Anytown",
+    "street": "123 Main St",
+    "zip": "12345"
+  },
+  "age": 30,
+  "name": "John Doe",
+  "nickname": null,
+  "salary": 75000.5
+}
+
+=== Testing Arrays ===
+Fruits array: [
+  "apple",
+  "banana",
+  "cherry"
+]
+Mixed type array: [
+  "text",
+  42,
+  3.14,
+  true,
+  null
+]
+
+=== Testing Fluent Builder ===
+Person (fluent): {
+  "active": true,
+  "age": 28,
+  "middle_name": null,
+  "name": "Jane Smith",
+  "salary": 85000
+}
+Colors array (fluent): [
+  "red",
+  "green",
+  "blue",
+  42,
+  true
+]
+
+=== Testing Literal Operators ===
+String literal: "Hello, World!"
+Integer literal: 42
+Real literal: 3.14159
+
+=== Testing Convenience Builders ===
+Convenience object: {
+  "active": true,
+  "type": "convenience",
+  "value": 123
+}
+Convenience array: [
+  "one",
+  "two",
+  "three"
+]
+
+=== Testing Complex Structure ===
+Complex company structure: {
+  "active": true,
+  "departments": [
+    {
+      "budget": 1000000,
+      "employees": [
+        {
+          "name": "Alice Johnson",
+          "position": "Software Engineer",
+          "salary": 95000
+        },
+        {
+          "name": "Bob Smith",
+          "position": "Product Manager",
+          "salary": 105000
+        }
+      ],
+      "name": "Engineering"
+    },
+    {
+      "budget": 500000,
+      "employees": [
+        {
+          "name": "Carol White",
+          "position": "Sales Manager",
+          "salary": 80000
+        }
+      ],
+      "name": "Sales"
+    }
+  ],
+  "founded": 2010,
+  "name": "Tech Corp"
+}
+
+Demo completed successfully!
+```
+
 ## Features Demonstrated
 
 The demo program demonstrates the following features:
