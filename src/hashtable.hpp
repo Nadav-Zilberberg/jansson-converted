@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2009-2016 Petri Lehtinen <petri@digip.org>
+ *
+ * This library is free software; you can redistribute it and/or modify
+ * it under the terms of the MIT license. See LICENSE for details.
+ */
+
 #ifndef JANSSON_HASHTABLE_H
 #define JANSSON_HASHTABLE_H
 
@@ -11,6 +18,7 @@
 #include <stdexcept>
 #include "jansson.h"
 #include "memory.hpp"
+#include <vector>
 
 namespace jansson {
 
